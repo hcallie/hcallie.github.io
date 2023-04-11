@@ -211,6 +211,7 @@ input, select, textarea {
 		margin: 0 0 0.5em 0;
 		/* font-family: "Audiowide", sans-serif; callie added font */
 		font-family: "Sedgwick Ave Display";
+		-webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.1));
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -3530,7 +3531,7 @@ input, select, textarea {
 /* Footer */
 
 	#sidebar + #wrapper + #footer {
-		margin-left: 18em;
+		margin-left: 21em;
 	}
 
 		@media screen and (max-width: 1280px) {
@@ -3962,8 +3963,8 @@ input, select, textarea {
 
 .waviy {
   position: relative;
-  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
-  font-size: 60px;
+  -webkit-box-reflect: below -95px linear-gradient(transparent, rgba(0,0,0,.1));
+  font-size: 90px;
 }
 .waviy span {
   font-family: "Sedgwick Ave Display";
